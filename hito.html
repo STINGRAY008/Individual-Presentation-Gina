@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="keywords" content="fish, fishport, fishpond" />
+    <meta name="author" content="Gina Rodolfo" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Individual-Project-Hituan</title>
+    <!-- <link rel="stylesheet" href="css/styles.css"> -->
+<style>
+@media (max-width: 700px){
+    .row{
+        flex-direction: column;
+}
+}
+
+.product{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 5px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+}
+h1{
+    font-size: 34px;
+    font-weight: 600;
+}
+p{
+    color:  #777;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 10px;
+    text-align: center;
+}
+.product-col{
+    flex-basis: 40%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+.product-col img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.layer:hover{
+    background: #f44336;
+}
+.layer h3{
+    width: 100%;
+    font-weight: 700;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 40%;
+    opacity: 1;
+}  
+.div{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    /* background-color:  #0096FF; */
+    background-position: center;
+    opacity: 70%;
+}
+.icon .fa{
+    color: #f44336;
+    margin: 0 15px;
+    cursor: pointer;
+    padding: 19px 0;
+}
+</style> 
+</head>
+<body>
+    <section class="product">
+        <h1>FISHPOND PRODUCTS</h1>
+        <p>
+            Our fish are raised with a high protein<br/>
+            diet to help with healthy, rapid growth,<br/>
+            and to ensure a high quality fish.
+        </p>
+            <div class="row">
+                <div class="product-col">
+                    <img src="images/Breeder1.jpg"/>
+                    <p>&#8369; 350.00 per kilo</p>
+                    <div class="layer">
+                        <h3>Catfish Breeder</h3>
+                    </div>
+                </div>
+                <div class="product-col">
+                    <img src="images/Growout4.jpg"/>
+                    <p>&#8369; 150.00 per kilo</p>
+                    <div class="layer">
+                        <h3>Live Hito</h3>
+                    </div>
+                </div>
+                <div class="product-col">
+                    <img src="images/Hito Fingerlings-b.jpg"/>
+                    <p>&#8369; 1.50 per inch</p>
+                    <div class="layer">
+                        <h3>Hito Fingerlings</h3>
+                        
+                    </div>
+                </div>
+                <div class="product-col">
+                    <img src="images/catfish hatching.jpg"/>
+                    <p>&#8369; 6,000.00 per tub</p>
+                    <div class="layer">
+                        <h3>5-day Old Hito</h3>
+                    </div>
+                </div>
+            </div>  
+    </section> 
+    <div class="div">
+        <!-- <iframe width="560" height="315" src="https://youtube.com/shorts/5kDEcB-e_J4?feature=share" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+        <iframe width="380" height="530" src="video/hito for sale.mp4" frameborder="0"></iframe>
+    </div> 
+    </section>
+    <Footer>
+        <p><a href="index.html" target="_blank" >Visit Our Website</a></p>
+        <p>Purok 18, Zone 5, Lagao, General Santos City</p>
+    </Footer>
+  
+</body>
+</html>
