@@ -319,30 +319,37 @@ p{
 }
 /* *************************************************FOOD SAFETY STATEMENT************************************************* */
 .safety{
-    width: 95%;
+    width: 90%;
     margin: auto;
     text-align: center;
     padding-top: 20px;
     padding-bottom: 20px;
 }
+.safety-col p{
+    text-align: left;
+   
+}
 .statement{
     margin-top: 2%;
     display: flex;
     justify-content: space-between;
-    align-content: center;
+    /* align-content: center; */
+   
 }
-.safety-col1, .safety-col2{
-    flex-basis: 48%;
+.safety-col{
+    flex-basis: 45%;
     margin-bottom: 5%;
     padding-top: 25px;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     cursor: pointer;
 }
 .safety img{
     width: 350px;
     height: 300px;
-    align-items: center;
+    /* align-items: center; */
     border-radius: 10px;
+   
+    
 }
 .safety img:hover{
     box-shadow: 0 0 50px 0px #f44336;
