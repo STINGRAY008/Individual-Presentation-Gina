@@ -450,7 +450,11 @@ p{
     border-radius: 10px;
     background-color: #0096FF;
     box-sizing: border-box;
-}
+    box-shadow: 8px 10px 6px 0px rgba(230,31,31,0.5);
+    -webkit-box-shadow: 8px 10px 6px 0px rgba(230,31,31,0.5);
+    -moz-box-shadow: 8px 10px 6px 0px rgba(230,31,31,0.5);
+} 
+
 .gallery4 img{
     /* width: 100%; */
     width: 180px;
