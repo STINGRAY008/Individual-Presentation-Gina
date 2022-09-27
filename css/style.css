@@ -80,7 +80,7 @@ nav{
     display: inline-block;
     text-decoration: none;
     color: white;
-    border: 3px solid white;
+    /* border: 3px solid white; */
     padding: 12px 34px;
     font-size: 18px;
     background: transparent;
@@ -89,8 +89,8 @@ nav{
     background-color: #0096FF;
 }
 .hero-btn:hover{
-    border: 2px solid #f44336;
-    background: #f44336;
+    /* border: 2px solid #f44336; */
+    background: #f3867e;
     transition: 1s;
 }
 nav .fa{
@@ -106,7 +106,7 @@ nav .fa{
     }
     .nav-links{
         position: fixed;
-        background: #f44336;
+        background: #f3867e;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -197,7 +197,7 @@ p{
     transition: 0.5s;
 }
 .layer:hover{
-    background: #f44336;
+    background: rgba(243, 134, 126, 0.662);
 }
 .layer h3{
     width: 100%;
@@ -257,7 +257,7 @@ p{
     box-sizing: border-box; 
     cursor: pointer;
 }
-.gallery2{
+.gallery2,.gallery3{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -272,7 +272,7 @@ p{
     box-sizing: border-box;
     cursor: pointer;
 }
-.gallery3{
+/* .gallery3{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -286,7 +286,7 @@ p{
     background-color: #0096FF;
     box-sizing: border-box;
     cursor: pointer;
-}
+} */
 .gallery1:hover{
     box-shadow: 0 0 50px 0px #f44336;
     transition: 1s;
@@ -315,11 +315,20 @@ p{
 }
 .gallery3 img{
     width: 100%;
+    max-width: 350px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+
+}
+
+/* .gallery3 img{
+    width: 100%;
     max-width: 175px;
     height: 225px;
     object-fit: cover;
     border-radius: 10px;
-}
+} */
 /* *************************************************FOOD SAFETY STATEMENT************************************************* */
 .safety{
     width: 90%;
@@ -358,6 +367,9 @@ p{
     align-items: center;
     max-width: 900px;
     gap: 50px;
+}
+.card-title{
+    padding-top: 20px;
 }
 .card-text{
     text-align: left;
@@ -573,6 +585,9 @@ p{
 .comment-form button{
     margin: 10px 0;
 }
+.comment-box .hero-btn{
+    border: none;
+}
 /* ************************************************* CONTACT US PAGE ************************************************* */
 .location{
     width: 80%;
@@ -618,4 +633,7 @@ p{
     outline: none;
     border: 1px solid #ccc;
     box-sizing: border-box;
+}
+.contact-col2 .hero-btn{
+    border: none;
 }
