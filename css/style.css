@@ -344,7 +344,7 @@ p{
 }
 .card{
     width: 25rem;
-    height: 35rem;
+    height: 37rem;
     margin: 0 auto;
     align-content: center;
     background-color: #0096FF;
@@ -358,7 +358,7 @@ p{
     flex-basis: 45%;
     border-radius: 10px;
     margin: 0 auto;
-    padding: 15px;
+    padding: 5px;
     display:flex;
     align-items: center;
     flex-direction: row;
@@ -392,7 +392,7 @@ p{
 .reviews{
     width: 80%;
     margin: auto;
-    padding-top: 20px;
+    padding-top: 30px;
     text-align: center; 
 }
 .review-col{
